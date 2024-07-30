@@ -22,5 +22,19 @@
             <input type="submit" value="Buscar Vuelos">
         </form>
     </main>
+     <header>
+        <h1>Búsqueda de hoteles</h1>
+    </header>
+    <main>
+        <form action="resultado_busqueda.php" method="post">
+            <label for=" cuidad">ciudad:</label>
+            <input type="text" id="cuidad" name="origen" required>
+            <label for="dias">dias:</label>
+            <input type="text" id="dias" name="destino" required>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <input type="submit" value="Buscar disponibilidad">
+        </form>
+    </main>
 </body>
 </html>
