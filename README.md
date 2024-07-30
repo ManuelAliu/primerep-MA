@@ -7,7 +7,7 @@
     Búsqueda de Vuelos
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body> 
     <header>
         <h1>Búsqueda de Vuelos</h1>
     </header>
